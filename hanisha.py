@@ -8,7 +8,7 @@ def paye(salary,name,age,location,occupation):
       tax = rate*salary
       net_pay = salary-tax
       print("**************")
-      print("Dear: ",name,age,location,occupation)a
+      print("Dear: ",name,age,location,occupation)
       print("age: ",)
       
       
