@@ -47,7 +47,7 @@ def register_student():
 
     print("Amount of money every student should pay: shs.250000")  # Amount of school fees to be paid.
 
-# Register a new student
+# Register a new student(calling the function)
 register_student()
 
 
