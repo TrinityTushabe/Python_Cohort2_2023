@@ -21,11 +21,11 @@ def payee(name,salary,age,location,work):
 
 
 print("Your welcome! Please follow the instructions ") #This will come on top of the page.
-name = input("Please enter your name: ")# prompt the user to enter their name.
+name =raw_input("Please enter your name: ")# prompt the user to enter their name.
 year_of_birth = input("Please enter your year of birth: ")# prompt the user to enter their year of birth.
 age = 2023-year_of_birth # This will help us determine the age of the user.
-location = input("Please enter location: ") # This will help us determine the location of the user.
-work = input("Please enter your work type here: ") # This will help us determine the work type of the user.
+location = raw_input("Please enter location: ") # This will help us determine the location of the user.
+work = raw_input("Please enter your work type here: ") # This will help us determine the work type of the user.
 salary = input("please enter your salary: ")# prompt the user to enter their salary.
 
 payee(name,salary,age,location,work)  
