@@ -1,13 +1,18 @@
 '''
 This function has various inputs functions where the user is required to enter student details and the parent details.
 '''
+print("Welcome to Aunt Esther Nusery school")
+print("                                 ")
+print("Registration System")
+print("                                 ")
+
 def student():
-    name = input("Please insert Student Fistname and lastname: ")
+    name = input("Please insert Student Fistname and Lastname: ")
     age = input("Insert the Student Age: ")
     location = input("Add your location: ")
-    parentName = input("Please Insert Parent's Name here: ")
-    print("Parent's Name: ", name)
+    parentName = input("Please Insert Parent's Name here: ")    
     print("Summary Details: " "Name:", name + " " + "Age:", age +" " + "Located:",location + " " + "Student's Parent: ", parentName)
+    print("Parent's Name: ", parentName)
 student()
 print(".....................................")
 print("Choose the Student's class below.")
@@ -58,9 +63,12 @@ def payments():
     payment = input("Enter student current payment status (Yes/No): ")
     if payment == "yes":
         print("Thank you for the payement")
+        print("The student is Fully Registered.")
     elif payment == "no":
         print("Please go we argue to make the payment:")
+        print("Student's Registration is still pending")
     else:
         print("Please Insert your payment status")
-    print(".............................")
+    print("                           ")
+    print("Thank you For Trusting us with your Child's Future")
 payments()
