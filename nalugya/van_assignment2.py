@@ -39,7 +39,7 @@ def register_student():
         "Payment Status": payment_status
     }
 
-    students.append(student)  #  To add the student to the list
+    students.append(student)  #  To add the students to the list
 
     print("\n***** Summary of Registered Pupil *****")
     for key, value in student.items():
